@@ -1,0 +1,6 @@
+1) "combined": scripts in here used to find best-fit solution (fluxes are loosely constrained between zero and two times the experimentally determined average values, but not fixed)
+2) "flux_conf_run": find flux confidence intervals with extracellular exchange flux values fixed. This is suitable to determine flux split ratio
+3) "flux_conf_run_exRelax": find flux confidence intervals with extracellular exchange flux values' determined by fitting to data errors (i.e., via non-linear optimization). This is suitable to determine uncertainty of intracellular fluxes propagated from uncertainty in extracellular measurements.
+4) "data": 13C-labeling and exchange fluxes data
+5) "AMM": carbon mapping model
+6) "GEM": metabolic stoichiometry model
